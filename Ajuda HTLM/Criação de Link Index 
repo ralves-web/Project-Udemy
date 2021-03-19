@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html>
+     
+    <head>
+        <title>Página Principal</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <a href="">            
+            Home
+        </a>
+        /
+        <a href="contato.html">            
+            Contato
+        </a>
+
+        <h2>Pagina Principal</h2>        
+        <p>Equipe aposta em mudanças no carro de 2021 
+        para resolver problemas de velocidade vistos na temporada passada
+    </p>
+
+        <p>Equipe aposta em mudanças no carro de
+         2021 para resolver problemas de velocidade vistos na temporada passada
+    </p>
+
+    </body>
+
+</html>

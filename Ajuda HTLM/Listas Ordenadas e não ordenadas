@@ -1,0 +1,18 @@
+Listas HTML Não ordenadas e Ordenadas.
+
+
+        <h2>Mapa do Site</h2>
+        <!-- Listas de opções não ordenada Circle, square, disc --> Comentários dentro do HTML.
+        <ul type="circle">
+            <li>Home</li>
+            <li>Quem Somos</li>
+            <li>Contato</li>
+        </ul>
+
+        <h2>Perguntas</h2>
+        <!-- Lista de opções ordenada 1,A,a,I,i -->
+        <ol type="I">
+            <li>Comida Favorita ?</li>
+            <li>Carro Favorito ?</li>
+
+        </ol>

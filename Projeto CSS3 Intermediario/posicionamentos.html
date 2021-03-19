@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+                <title>Posicionamentos (static, relative,
+                    absolute e fixed
+                </title>
+                <meta charset="utf-8">
+
+                <style type="text/css">
+
+                body{
+                    background: #007fc7;
+                }
+                
+
+                #container{
+                    background: #FFF;
+                    width: 800px;
+                    margin: 10px auto;
+                    padding: 5px 10px;
+                    position: relative;
+                }
+
+
+
+                p{
+                    width: 400px;
+                }
+
+                .fixed{
+                    border: 1px solid red;
+                    background: gray;
+                    position: fixed;
+                    bottom: 10px;
+                    right: 15px;
+
+                    /* fixed vai fazer com que o conteudo fique fixado
+                    no seu navegador conforme 
+                    as orientações de bottom, right, left etc..*/
+
+                }
+
+
+                .absolute{
+                    border: 1px solid red;
+                    background: gray;
+                    position: absolute;
+                    top: 0px;
+                    right: 20px;
+
+                    /* absolute é baseado na sua posição atual */
+                }
+
+                .relative{
+                    border: 1px solid red;
+                    position: relative;
+                    /* top, right, bottom, left são propriedades deslocamento
+                    usadas em conjunto com "relative" */
+                    top:  0px;
+                    left: 0px;
+
+
+                }
+
+
+
+                </style>
+
+
+            </head>
+
+            <body>
+
+                <div id="container">
+
+                <h1>Posicionamentos</h1>
+
+       
+                    <p>
+                         P1 Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                    </p>
+
+                    <p class="fixed">
+                         P2 Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                    </p>
+
+                    <p>
+                         P3 Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                    </p>
+
+                    <p>
+                        P3 Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                   </p>
+
+                   <p>
+                    P3 Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                   </p>
+               
+
+            </div>
+
+
+
+        </body>
+
+
+
+</html>

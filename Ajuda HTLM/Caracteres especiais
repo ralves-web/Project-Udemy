@@ -1,0 +1,32 @@
+
+-- Como inserir caracteres especiais em HTML.
+
+SITE ABAIXO.
+
+
+https://www.w3schools.com/html/html_entities.asp
+
+Exemplo:
+
+
+<!doctype html>
+
+<html>
+     
+    <head>
+        <title>Página Principal</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <h2>Caracteres Especiais</h2>
+        
+        &lt;&nbsp;p&nbsp;&gt;
+
+
+
+
+    </body>
+
+</html>
