@@ -1,0 +1,146 @@
+/* Seletor universal
+*{
+    border: 1px solid red;
+
+}
+
+/* Seletor de texto 
+h1{
+    color: green;
+}
+
+
+/* Seletor de Classe 
+.verde {
+    color: green;
+}
+
+p.verde {
+    color: green;
+} */
+
+/* Seletor de ID 
+#cabecalho {
+    border: 1px solid red;
+
+} */
+
+/* Seletor de FIlho, ele permite selecionar elementos que estão dentro de outro elemento 
+
+li>a {
+    color: green;
+    text-decoration: none;
+ } */
+
+ /* Seletor de descendente, ele permite selecionar um elemtento mesmo que não seja um filho direto
+ igual ao exemplo acima.
+
+ li a {
+     color: blue;
+ } */
+
+/* Seletor de irmão adjacente, ele sempre ser aplicado no posterior. 
+
+h1+p {
+    color: red;
+ }     */
+
+ /* Seletor de Irmão Geral, diferente do adjacente o Irmão geral, será aplicado em toda
+ a cadeia que estejam na chave abaixo e não só na primeira. 
+
+ h1~p {
+     color: pink;
+ }
+ */
+
+ /************ Herança e Especificidade ************/
+
+/* Herança
+ funciona em um efeito cascata, pois quando crio uma formatação para o "body" por exemplo
+ele irá se aplicar para tudo que esta dentro dele 
+body{
+    color: red;
+    border: 1px solid black;
+} */
+
+/* Especificidade *
+************************************************************************
+Seletores iguais, sempre o ultimo ira prevalecer , com exceção do " !important  "
+porém ele não deve ser usado com frequencia, pois pode confundir o seu codigo.
+
+.pagina p {
+     color: red ;
+}
+
+.pagina p {
+     color: blue;
+}
+***********************************************************************/
+
+/* Se um seletor for mais específico que outro a regra mais específica
+será aplicada ( terá precedência sobre regras mais gerais) */
+/***
+* {
+    color: red;
+}
+
+h2 { /* 3° 
+    color: blue;
+}
+
+h2.verde { /* 2° 
+    color: green;
+}
+
+h2#amarelo { /* 1° 
+    color: yellow;
+}
+*/
+
+/****** Barra de Navegacao Vertical *****/
+
+/*
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 5px 20px;
+    background: url(../Imagens/seta.png) no-repeat left center;
+}
+*/
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a {
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: #f7b600 url(../Imagens/menu.png) no-repeat left bottom;
+    
+}
+
+a:hover {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
+
+#home #navegacao .home a ,
+#sobre #navegacao .sobre a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+
+} 
