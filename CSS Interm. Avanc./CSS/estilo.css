@@ -113,6 +113,8 @@ li {
 }
 */
 
+
+/**** Barra de Navegação Vertical ***
 ul {
     margin: 0;
     padding: 0;
@@ -144,3 +146,372 @@ a:hover {
     color: white;
 
 } 
+************************************************/
+
+
+/**************************************************
+
+             Barra de navegação Horizontal
+
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none; 
+   width: 560px;
+   background: #159cb0 url(../Imagens/fundo-horizontal.png) repeat-x;
+   float: left;
+}
+
+ul li {
+   
+    float: left;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: #ffff;
+    background: url(../Imagens/divisor.png) repeat-y;
+}   
+
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover {
+    color: #085652;
+    background: #2abed4 ;
+}
+
+#home #navegacao .home a ,
+#sobre #navegacao .sobre a {
+    color: #085652;
+    background: #2abed4 ;
+}
+************************************************************/
+
+
+/******* Barra de navegação com abas **********
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+}
+
+ul li {
+    float: left;
+    background: url(../Imagens/aba-direita.png) no-repeat top right;
+}
+
+li a {
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url(../Imagens/aba-esquerda.png) no-repeat top left;
+    color: #fff
+
+}
+
+ul a:hover {
+    color: #894a1f;
+}
+
+ul #atual a {
+    background: url(../Imagens/aba-direita-atual.png) no-repeat top right;
+}
+
+
+*****************/
+
+/******* Layout ********
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f2f2f2;
+
+}
+
+#container{
+    border: 1px solid red; 
+    width: 960px;
+    margin: 0 auto;
+    background: #fff url(../Imagens/coluna.png) repeat-y left top;
+    min-width: 720px;
+    /*max-width: 960px; 
+  
+    
+}
+
+#marca{
+    height: 300px;
+    background: #225992 url(../Imagens/cabecalho2.jpg) no-repeat center;
+    text-align: center; 
+    line-height: 300px;
+
+}
+
+
+#conteudo{
+    
+    width: 75%; /*520px = 75% referente ao tamanho total da tela
+    float: right;
+}
+
+#conteudo1{
+   
+    width: 60%;/* 300px = 60% referente ao tamanho do conteudo de 500px; 
+    float: left;
+    
+   
+}
+
+#conteudo1 h2 {
+    text-align: center;
+}
+
+img.img-noticia {
+
+    width: 95% ;
+    padding: 2%;
+    max-width: 600px;
+
+}
+
+
+#conteudo2{
+
+    width: 39%;/* 200px = 40% referente ao tamanho do conteudo de 500px; 
+    float: right;
+    background: #4444;
+}
+
+#conteudo1 h2, #conteudo2 h2,
+#conteudo2 p, #conteudo2 h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao {
+   
+    width: 23%;/* 180px é igual 24% de 700px que é o total do container
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*background: #d1d1d1;
+}
+
+#navegacao ul {
+    list-style: none;
+
+}
+
+#navegacao ul a {
+    text-decoration: none;
+
+}
+
+li a {
+    display: block;
+    float: left;
+    padding: 10px;
+    clear: both;
+}
+
+
+
+#rodape{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
+
+***********************************************************/
+
+
+/*** Estilizando Tabelas 
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+
+}
+
+th, td {
+
+    padding: 7px;  
+}
+
+th {
+    text-transform: uppercase; /* Serve para transformar todas as letras em maiusculas *
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em; /* Serve para definir o espaçamento entre as letras *
+
+}
+
+tr.alternado {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: #c3e6e5;
+}
+
+.numero{
+    text-align: right;
+}
+
+**********************************************************************/
+
+/*********************************
+Estilizando formulários *
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 500px;
+}
+
+fieldset {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8 ;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input [type="text"] {
+    width: 20em;
+}
+
+textarea {
+    width: 20em;
+    height: 10em;
+}
+
+input.radio, input.chebox, input.submit {
+    width: auto;
+}
+
+.radio {
+    margin-right: 1em;
+}
+***********************************************/
+
+/*******************************************
+Estilizando Formulários 2 ******************
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(../Imagens/fundo.jpg) no-repeat top center;
+   
+}
+
+#container {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#container img {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+
+}
+
+input {
+    height: 25px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    text-align: center;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.email {
+    background-image: url(../Imagens/icone-usuario.png);
+}
+
+input.senha {
+    background-image: url(../Imagens/icone-cadeado.png);
+}
+
+input.submit {
+    color: #fff;
+    background-color: #f79300;
+    border: 2px solid #db7d00;
+    height: 40px;
+    padding: 5px;
+    width: 90%;
+
+    /* Formatação para alguns tipos de navegadores, *
+    background: linear-gradient(to bottom, #faa600, #f68a00);
+    background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+    background: linear-gradient(to bottom, #faa600, #f68a00);
+}
+
+a {
+    text-decoration: none;
+}
+
+********************************************************************/
+/*************
+Arrredondamento de Imagens *********************/
+
+.caixa {
+    width: 400px;
+    background: #dedede url(../Imagens/fundo-arredondamento.png) repeat-y  left top ;
+}
+
+.caixa h2 {
+    padding: 10px 20px 20px 20px;
+    background: url(../Imagens/topo2.png) no-repeat left top;
+}
+
+
+.caixa p {
+    
+     padding: 0 20px;
+}
+
+.caixa .ultimo {
+    padding-bottom: 20px;
+    background: url(../Imagens/baixo2.png) no-repeat left bottom;
+}
+
+
+
+
+
+

@@ -1,0 +1,176 @@
+1 Introdução a rede de computadores.
+  Uma rede é definida quando demais computadores estão conectados entre si.
+  Hoje a maior rede é a Internet, mas não necessariamente um computador precisa estar conectado a uma internet
+  para ser definido como uma rede.
+  
+Conceitos históricos de redes.
+
+Cada século foi dominado por uma tecnologia
+
+Séc. XVIII sistemas mecanicos (Revolução insdustrial)
+Séc XIX era das maquinas a vapor.
+Séc XX se deram no campo da aquisição, do processamento e da distribuição de informações.
+( Redes de Telefonia em escala mundial, invenção do rádio e da televisão, o nascimento e o crescimento
+da insdustria de informática e o lançamentos dos satélites de comunicação.
+Em 1960 foi criado a primeira conexão em rede e era operadora ( ARPANET NCP)
+
+Importância da aplicação de redes.
+
+Compartilhamento de Recuros:
+TOrnar todos os programas, equipamentos e daos ao alcance de todoas as pessoas na rede.
+
+Compartilhamento de informações:
+ As empresas possuem dependência vital de informações computadorizadas
+ Permite o acesso a informações e documentos relevantes de forma instantânea, através de servidores por exemplo.
+ 
+ Arquitetura Cliente-servidores
+ 
+ CLiente-----\
+              \  > -----> Rede --- > Servidores
+ CLiente-----/
+ 
+ Modos de Operação:
+ 
+ Simplex
+ 
+ Comunicação unidirecional (Radio e TV) 
+ ---------------------------------------------
+ Half-Duplex 
+ 
+ Comunicação bidirecional alternada (rádio polícia) 
+ --------------------------------------------------
+ Full-Duplex
+ 
+ COmunião biredicional simultanea (Telefone)
+ ---------------------------------------------
+ 
+ Tipos de sinais da comunicação
+ 
+ Sinal ANalógico - São ondas eletromagnéticas que assumem infinitos valores ao longo do tempo.
+ Este sinal é representado por uma onda senoida com amplitude, frequência e fase.
+ 
+ Sinal Digitar - Representado por 0 s e 1 s (binário)
+ Diminuir a taxa de oscilação = aumento na qualidade.
+ 
+ --------------------------------------------------------------
+ 
+ Tipos de Meio de transmissão
+ 
+ ° Par-trançado 
+ Fios enrolados de forma heliciodal, pela qual ocorre menos interferência, eles suportam sinais analógicos digitais
+ suas tranmissões e são divididos em CAT 5, Re, 6 e 7, que se diferenciam pela largura de banda suportada ou pela
+ presença ou não de blindagem.
+ 
+ ° Cabo coaxial
+ É o cabo utilizado na TV, possue um núcleo de cobre, envolto por uma camada plastica. 
+ 
+ ° Fibra óptica
+  ELe recebe informações, e o sinal óptico é transformado em sinal eletrico. 
+  Chegando em até 10 terabytes por segundo.
+  
+  
+  
+  Tipos e meios de transmissão: Não guiado.
+  
+  Rádio , Micro-ondas e Satélites.
+  
+  ----------------------------------------------------------------
+  
+  Classificação e topolia de redes.
+  
+  Classificação de Redes: 
+  
+  ° Por Tecnologia.
+  
+  Redes de Broadcast ( Redes locais, redes em anel, estrela, satélite) e Redes ponto a ponto ( WANs, ligações dedicadas, roteadores..)
+  
+  ° Por escala.
+  
+  Redes locais (LAN) são redes privadas com pouco alcance.
+  
+  Redes Metropolitanas são redes retritas até 10km.
+  
+ Redes Wide Area Network (WAN) Elas são de grande alcance Exemplos ( Computadores a sub-redes, sistema de satélite, entre outros).
+  
+  ° Redes sem Fio
+    BLuetoth, Wi fi entre outros.
+
+ Topologia de REdes:
+ 
+ ° Topologia malha, possui um link dedicado com os demais da rede.
+ ° Toplogia em Anel , possui somente uma conexão com o seu "vizinho" quando enviado, percorre até que o destino seja encontrado.
+ ° Topologia Estrela: Cada dispositivo possui um link ponto a ponto com um concentrador. pode ser um hub, roteador ou switch.
+ ° Topologia de barramento: Esta topologia é considerada ponto a ponto, pois para fazer a conexão é necessário um backbone 
+  ----------------------------------------------------
+  
+  
+  Principais tipos de Hardware.
+  
+  Placas de Rede: É um dispositivo de Entrada e saida que se conecta por meio de cabeamento.
+  Modem: Ele faz a conversão de analógico para digital. 
+  Hub: É um repetidor , ele replica a mensagem recebida a todos os dispositivos conectador ao Hardware de rede.
+  Roteador: Ele faz o gerencimanento de trafego de pacote de dados ( TCP/IP).
+  Switch: ELe é utilizado para um maior numero de dispositivos conectados, é encontrado em empresasa, faculdades etc..
+  
+  
+  ----------------------------------------------------------
+  
+  O que são Gargalos em redes de computadores ?
+  
+  ELe se caracteriza quando existe um grande acesso a rede, fazendo com que o sistema seja sobrecarregado e assim ocasionando uma lentidão
+  no sistema. POR EXEMPLO o ultimo dia de envio do IR, quando o sistema sofre uma lentidão. 
+  Uma forma de que isso não aconteça , é fazer com que tenham varios servidores dedicados para a aplicação.
+  
+  
+  ----------------------------------------------
+  
+  
+  Modelo OSI proposta desenvolvida pela ISO
+  
+  Trata-se de uma arquitetura modelo que divide as redes de computadores em 7 camadas para obter camadas de abstração.
+  
+  1 Fisica
+  2 Enlace
+  3 Rede
+  4 Transporte
+  5 Sessão
+  6 Apresentação
+  7 Aplicação
+  
+  
+  Arquitetura TCP/IP
+  Semelahnte ao modelo OSI em questão de divisão de arquitetura em camadas, o TCP/IP consiste na junção dos protocolos TCP que 
+  contem a arquitetura definida em:
+  
+  Aplicação - Conexão remota ( por exemplo pelo prompt de comando para  acessar remotamente outro terminal)
+  Transporte - Orienta a conexão , divide o fluxo de dados, ele estabelece a conexão para que os dados consigam se conectar.
+  ( Exemplo: Streaming)
+  Internet - Fornecedor o endereçamente para os dispositos, Envia, recebe e roteia datagramas IP. entre outras funções.
+  Interface de Rede - Protocolos com estrutura de rede propria, Protocaolos de Nivel fisico, Protocolos de barramento de alta velocidade.
+  
+  -------------------------------------------------------
+  
+  Você sabe algum exemplo de programa que efetua transferência de arquivos com FTP ?
+  
+  O FileZilla é, possivelmente, o mais conhecido e usado programa de FTP.
+  
+  -----------------------------------------------------------
+
+
+Resumo da Aula.  
+  
+  
+  Introdução a redes de computadores
+  Comunicação de dados
+   sinais e meios de transmissão.
+  Classificação e topologia de redes. 
+  Modelos de referencias em Redes.
+   OSI E TCP/IP
+ Protocolos e serviços de redes TCP/IP
+   
+  
+  
+  
+ 
+ 
+ 
